@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Прайс-лист — Цифровая полка</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<img class="logo" src="images/logo.png" alt="Логотип Цифровая полка" width="80" height="80">
+				<h1>Цифровая полка</h1>
+				<p>Интернет-магазин электронных книг, курсов, игр и музыки</p>
+				<div class="clear"></div>
+			</header>
+			<nav>
+				<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="about.html">О компании</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="price.html" class="current">Прайс-лист</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Прайс-лист</h2>
+				<table>
+					<tr>
+						<th>Товар</th>
+						<th>Формат</th>
+						<th>Цена, руб.</th>
+						<th>Наличие</th>
+					</tr>
+					<tr><td class="category" colspan="4">Книги и аудиокниги</td></tr>
+					<tr><td>Электронная книга «Основы веб-дизайна»</td><td>PDF</td><td>350</td><td>Доступно</td></tr>
+					<tr><td>Аудиокнига «Тайны космоса»</td><td>MP3</td><td class="sale">200 (скидка)</td><td>Доступно</td></tr>
+					<tr><td class="category" colspan="4">Курсы и шаблоны</td></tr>
+					<tr><td>Видеокурс «HTML и CSS с нуля»</td><td>Видео</td><td class="new">1 200 (новинка)</td><td>Доступно</td></tr>
+					<tr><td>Шаблоны презентаций</td><td>PPTX</td><td>390</td><td class="soldout">Временно нет</td></tr>
+					<tr><td class="category" colspan="4">Игры и музыка</td></tr>
+					<tr><td>Игра «Лабиринт»</td><td>Windows</td><td>499</td><td>Доступно</td></tr>
+					<tr><td>Альбом «Ночной город»</td><td>MP3</td><td>250</td><td>Доступно</td></tr>
+				</table>
+				<p>Обозначения:
+					<span class="sale">скидка</span>
+					<span class="new">новинка</span>
+					<span class="soldout">нет в наличии</span>
+				</p>
+				<div class="clear"></div>
+			</main>
+			<div class="pager"><a href="catalog.html">&larr; Назад</a> </div>
+			<footer>
+				<p>Контакты: г. Москва, ул. Арбат, д. 10, тел. +7 (495) 111-22-33, e-mail: info@digitalshelf.example</p>
+				<p>Страница обновлена: 24.09.2026, 12:00</p>
+				<p>&copy; 2026 «Цифровая полка». Автор сайта: Лухменев Н. П.</p>
+			</footer>
+		</div>
+	</body>
+</html>
