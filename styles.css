@@ -85,7 +85,9 @@ h2 {
 
 /* Карточки товаров в каталоге */
 .product {
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
 	width: 260px;
 	margin: 0 10px 20px 10px;
 	padding: 10px;
