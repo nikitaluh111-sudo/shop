@@ -18,62 +18,62 @@ body {
 }
 
 /* Шапка с логотипом */
-header {
+#header {
 	background: #1f4e8c;
 	color: #ffffff;
 	padding: 15px 20px;
 }
 
-header .logo {
+#header .logo {
 	float: left;
 	margin-right: 15px;
 }
 
-header h1 {
+#header h1 {
 	margin: 5px 0;
 	font-size: 30px;
 }
 
-header p {
+#header p {
 	margin: 0;
 }
 
 /* Меню */
-nav {
+#menu {
 	background: #163a6b;
 }
 
-nav ul {
+#menu ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-nav li {
+#menu li {
 	display: inline-block;
 }
 
-nav a:link, nav a:visited {
+#menu a:link, #menu a:visited {
 	display: block;
 	padding: 12px 20px;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-nav a:hover {
+#menu a:hover {
 	background: #2f6fbf;
 }
 
-nav a:active {
+#menu a:active {
 	background: #1f4e8c;
 }
 
-nav a.current {
+#menu a.current {
 	background: #2f6fbf;
 }
 
 /* Основное содержимое */
-main {
+#content {
 	padding: 10px 20px 20px 20px;
 }
 
@@ -160,14 +160,33 @@ th {
 	color: #2f6fbf;
 }
 
+/* Ссылки в тексте */
+#content a:link {
+	color: #1f4e8c;
+	text-decoration: underline;
+}
+
+#content a:visited {
+	color: #6b3fa0;
+}
+
+#content a:hover {
+	color: #2f6fbf;
+	text-decoration: none;
+}
+
+#content a:active {
+	color: #c0392b;
+}
+
 /* Подвал */
-footer {
+#footer {
 	background: #163a6b;
 	color: #dddddd;
 	padding: 10px 20px;
 	font-size: 14px;
 }
 
-footer p {
+#footer p {
 	margin: 5px 0;
 }
